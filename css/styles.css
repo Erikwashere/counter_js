@@ -436,6 +436,10 @@ main {
   background: var(--clr-black);
 }
 
+button {
+  touch-action: manipulation;
+}
+
 @media screen and (min-width: 800px) {
   h1 {
     font-size: 4rem;

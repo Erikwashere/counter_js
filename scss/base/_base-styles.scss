@@ -100,4 +100,8 @@ main {
     color: var(--clr-white);
     background: var(--clr-black);
   }
+
+  button {
+    touch-action: manipulation;
+  }
  
